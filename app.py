@@ -87,6 +87,7 @@ if not st.session_state["logged_in"]:
 
     if choice == "Login":
         st.subheader("Login")
+        st.info("New user? Please Sign Up first.")
         username = st.text_input("Username")
         password = st.text_input("Password", type="password")
 
